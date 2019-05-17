@@ -15,7 +15,7 @@ digit [0-9]
 id {letter}({letter}|{digit})*
 number {digit}+(\.{digit}+)?
 relop <|>=
-arithOp [+|-|*|/]1
+arithOp [+|-|*|/]!
 Lparen "("
 Rparen ")"
 Semicolon ";"
